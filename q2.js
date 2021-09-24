@@ -148,12 +148,13 @@ const awards = [
 
 
 
-let obj = {};
+let obj  = [];
 
-let count = 0;
-for (let i = 0; i < Array.length; i++) {
-    if (awards[i].category == awards[i + 1]) {
-        
-      }
-}
-console.log(obj)
+awards.map((el) => {
+  if (el.category == el.category && el.year == el.year) {
+    obj.push({ "share": 1/2 }, {"winner" : el.name});
+    
+   }
+})
+ 
+console.log(obj);
